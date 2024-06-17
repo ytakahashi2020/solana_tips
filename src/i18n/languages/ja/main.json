@@ -1,0 +1,169 @@
+{
+  "layout": {
+    "ranking": "TipMates ランキング",
+    "apply": "認証バッジの申請",
+    "mypage": "マイページ",
+    "footer_logo_alt": "SolanaTips"
+  },
+  "main": {
+    "title1": "直接的で透明な",
+    "title2-1": "チップ",
+    "title2-2": "を",
+    "title2-3": "SolanaTipsで",
+    "member_number": "メンバー数",
+    "create_project": "プロジェクトを作成",
+    "search_placeholder": "1,050プロジェクトを検索...名前、ID、",
+    "sort_newest": "新着",
+    "sort_memberCount": "メンバー数",
+    "team_image_alt": "チーム",
+    "mobile_warning": {
+      "title": "モバイル警告",
+      "message": "このウェブサイトはモバイルデバイスには最適化されていません。",
+      "description": "このページを見るには、デスクトップまたはラップトップを使用してください。",
+      "close": "閉じる"
+    }
+  },
+  "lookup_table": {
+    "member_form": {
+      "add_member": "メンバーを追加",
+      "namePlaceholder": "名前",
+      "removeButton": "削除",
+      "addAnotherMember": "他のメンバーを追加",
+      "addMembersButton": "メンバーを追加"
+    },
+    "member_list": {
+      "title": "メンバー",
+      "countSuffix": "人のメンバー",
+      "noMembers": "メンバーが見つかりません。"
+    },
+    "messages_section": {
+      "title": "コメント",
+      "countSuffix": "件のコメント",
+      "noMessages": "メッセージが見つかりません。"
+    },
+    "support_section": {
+      "sendTip": "チップを送る",
+      "token": "PYUSD",
+      "commentPlaceholder": "コメントを追加できます。チップの送信は任意です。",
+      "monthlyTotal": "月額合計",
+      "send": "送信",
+      "warningMessage": "今月の寄付総額が100 PYUSDを超えています。余裕の範囲内で寄付してください。",
+      "cancel": "キャンセル",
+      "transactionId": "トランザクションID："
+    },
+    "post_detail_client": {
+      "display_qr_code": "QRコードを表示",
+      "translate": "ページを翻訳",
+      "white_list": "ホワイトリストに登録されています。ホワイトリスト番号：",
+      "homepage_qr": "このページのQRコード",
+      "language_label": "言語",
+      "info": "注意",
+      "info_desc1": "現在、リリース前のため、利用を制限しています。",
+      "info_desc2": "どのように挙動するかかについてはYouTubeをご確認ください。"
+    }
+  },
+  "admin": {
+    "applications_list": "申請リスト",
+    "no_applications_found": "申請が見つかりません。",
+    "project_name": "プロジェクト名",
+    "hp_address": "ホームページアドレス",
+    "project_description": "プロジェクトの説明",
+    "contact_name": "連絡先の名前",
+    "contact_email": "連絡先のメールアドレス",
+    "wallet_address": "ウォレットアドレス",
+    "submitted_at": "提出日時",
+    "status": "ステータス",
+    "status_options": {
+      "pending": "保留中",
+      "approved": "承認済み",
+      "rejected": "却下"
+    },
+    "confirm": "確認"
+  },
+  "apply": {
+    "application_form": "プロジェクト申請フォーム",
+    "project_name": "プロジェクト名",
+    "hp_address": "ホームページアドレス",
+    "project_description": "プロジェクトの説明",
+    "contact_name": "連絡先の名前",
+    "contact_email": "連絡先のメールアドレス",
+    "note": "注：回答には3営業日かかります。",
+    "submit": "提出",
+    "status": {
+      "no_wallet": "ウォレットが接続されていません。提出できません。",
+      "submitted": "申請が正常に提出されました。回答には3営業日かかります。"
+    }
+  },
+  "create": {
+    "lookup_table_tool": "ルックアップテーブル作成ツール",
+    "file_upload": "ファイルをアップロード",
+    "team_name": "チーム名を入力",
+    "team_description": "チームの説明を入力",
+    "team_image": "チームの画像をアップロード",
+    "team_address": "住所（オプション）",
+    "team_homepage": "ホームページ（オプション）",
+    "csv_content": "CSV内容",
+    "csv_error": "CSVの解析エラー",
+    "no_wallet": "ウォレットが接続されていません",
+    "program_running": "プログラム実行中...",
+    "program_success": "プログラムが正常に実行されました",
+    "program_error": "プログラム実行エラー",
+    "lookup_table_address": "ルックアップテーブルアドレス",
+    "check_transaction": "トランザクションを確認",
+    "submit_button": "ルックアップテーブルを作成",
+    "whitelist_message": "ホワイトリストに登録されています。"
+  },
+  "ranking": {
+    "monthly_donation_ranking": "{{currentMonth}} 月の寄付ランキング",
+    "rank": "ランク",
+    "sender_account": "送信者アカウント",
+    "total_amount": "合計金額",
+    "draw_lottery": "抽選を行う",
+    "processing": "処理中...",
+    "winner": "当選者：{{selectedWinner}}",
+    "explorer_message": "Arweaveにファイルを保存するため、NFTの反映には約5分かかります。",
+    "view_on_explorer": "エクスプローラーで見る"
+  },
+  "my_page": {
+    "connect_wallet": "ウォレットを接続してください",
+    "register_profile": "プロフィールを登録",
+    "transfer_history_mypage": "転送履歴",
+    "received_history_mypage": "受信履歴",
+    "issue_nft": "寄付証明のNFTを発行",
+    "processing": "処理中...",
+    "nft_reflection_message": "Arweaveにファイルを保存するため、NFTの反映には約5分かかります。",
+    "view_on_explorer": "エクスプローラーで見る",
+    "profile_view": {
+      "imageAlt": "プロフィール画像",
+      "editButton": "プロフィールを編集"
+    },
+    "profile_edit": {
+      "title": "プロフィールを編集",
+      "nameLabel": "名前",
+      "descriptionLabel": "説明",
+      "imageLabel": "プロフィール画像",
+      "imageAlt": "プロフィール画像",
+      "uploading": "アップロード中...",
+      "saveButton": "プロフィールを保存"
+    },
+    "receivedHistory": {
+      "title": "受信履歴",
+      "noHistory": "受信履歴が見つかりません。",
+      "sender": "送信者",
+      "message": "メッセージ",
+      "noMessage": "なし"
+    },
+    "transfer_history": {
+      "noHistory": "転送履歴が見つかりません。",
+      "recipient": "受信者",
+      "amount": "金額",
+      "message": "メッセージ",
+      "noMessage": "なし",
+      "loading": "読み込み中...",
+      "showMore": "もっと見る",
+      "showLess": "表示を減らす",
+      "totalAmount": "合計金額",
+      "monthlyTotal": "月額合計"
+    }
+  }
+}

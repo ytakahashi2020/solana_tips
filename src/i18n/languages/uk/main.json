@@ -1,0 +1,169 @@
+{
+  "layout": {
+    "ranking": "Рейтинг TipMates",
+    "apply": "Подати заявку на сертифікаційний значок",
+    "mypage": "Моя сторінка",
+    "footer_logo_alt": "SolanaTips"
+  },
+  "main": {
+    "title1": "Прямі та прозорі",
+    "title2-1": "Чаї",
+    "title2-2": "з",
+    "title2-3": "SolanaTips",
+    "member_number": "Кількість учасників",
+    "create_project": "Створити проект",
+    "search_placeholder": "Шукати 1,050 проектів...ім'я, ID,",
+    "sort_newest": "Найновіші",
+    "sort_memberCount": "Кількість учасників",
+    "team_image_alt": "Команда",
+    "mobile_warning": {
+      "title": "Попередження про мобільні пристрої",
+      "message": "Цей вебсайт не оптимізований для мобільних пристроїв.",
+      "description": "Будь ласка, використовуйте настільний комп'ютер або ноутбук для перегляду цієї сторінки.",
+      "close": "Закрити"
+    }
+  },
+  "lookup_table": {
+    "member_form": {
+      "add_member": "Додати учасників",
+      "namePlaceholder": "Ім'я",
+      "removeButton": "Видалити",
+      "addAnotherMember": "Додати ще одного учасника",
+      "addMembersButton": "Додати учасників"
+    },
+    "member_list": {
+      "title": "Учасники",
+      "countSuffix": "учасників",
+      "noMembers": "Учасників не знайдено."
+    },
+    "messages_section": {
+      "title": "Коментарі",
+      "countSuffix": "коментарів",
+      "noMessages": "Коментарів не знайдено."
+    },
+    "support_section": {
+      "sendTip": "Надіслати чайові",
+      "token": "PYUSD",
+      "commentPlaceholder": "Ви можете додати коментар. Це не обов'язково для надсилання чайових.",
+      "monthlyTotal": "Щомісячний підсумок",
+      "send": "Надіслати",
+      "warningMessage": "Загальна сума пожертвувань цього місяця перевищує 100 PYUSD. Будь ласка, даруйте в межах ваших можливостей.",
+      "cancel": "Скасувати",
+      "transactionId": "ID транзакції:"
+    },
+    "post_detail_client": {
+      "display_qr_code": "Показати QR-код",
+      "translate": "Перекласти сторінку",
+      "white_list": "Зареєстровано в білому списку. Номер білого списку:",
+      "homepage_qr": "QR-код цієї сторінки",
+      "language_label": "Мова",
+      "info": "Увага",
+      "info_desc1": "Зараз використання обмежене через попередній випуск.",
+      "info_desc2": "Будь ласка, перегляньте YouTube, щоб побачити, як це працює."
+    }
+  },
+  "admin": {
+    "applications_list": "Список заявок",
+    "no_applications_found": "Заявок не знайдено.",
+    "project_name": "Назва проекту",
+    "hp_address": "Адреса домашньої сторінки",
+    "project_description": "Опис проекту",
+    "contact_name": "Контактна особа",
+    "contact_email": "Контактний електронна пошта",
+    "wallet_address": "Адреса гаманця",
+    "submitted_at": "Подано",
+    "status": "Статус",
+    "status_options": {
+      "pending": "Очікує на розгляд",
+      "approved": "Затверджено",
+      "rejected": "Відхилено"
+    },
+    "confirm": "Підтвердити"
+  },
+  "apply": {
+    "application_form": "Форма заявки на проект",
+    "project_name": "Назва проекту",
+    "hp_address": "Адреса домашньої сторінки",
+    "project_description": "Опис проекту",
+    "contact_name": "Контактна особа",
+    "contact_email": "Контактний електронна пошта",
+    "note": "Примітка: відповідь займає 3 робочих дні.",
+    "submit": "Подати",
+    "status": {
+      "no_wallet": "Гаманець не підключений. Не можна подати заявку.",
+      "submitted": "Заявка успішно подана. Відповідь займає 3 робочих дні."
+    }
+  },
+  "create": {
+    "lookup_table_tool": "Інструмент створення таблиці пошуку",
+    "file_upload": "Завантажити файл",
+    "team_name": "Введіть назву команди",
+    "team_description": "Введіть опис команди",
+    "team_image": "Завантажити зображення команди",
+    "team_address": "Адреса (необов'язково)",
+    "team_homepage": "Домашня сторінка (необов'язково)",
+    "csv_content": "Зміст CSV",
+    "csv_error": "Помилка парсингу CSV",
+    "no_wallet": "Гаманець не підключений",
+    "program_running": "Програма виконується...",
+    "program_success": "Програма успішно виконана",
+    "program_error": "Помилка виконання програми",
+    "lookup_table_address": "Адреса таблиці пошуку",
+    "check_transaction": "Перевірити транзакцію",
+    "submit_button": "Створити таблицю пошуку",
+    "whitelist_message": "Ви зареєстровані в білому списку."
+  },
+  "ranking": {
+    "monthly_donation_ranking": "Рейтинг щомісячних пожертв за {{currentMonth}}",
+    "rank": "Ранг",
+    "sender_account": "Акаунт відправника",
+    "total_amount": "Загальна сума",
+    "draw_lottery": "Провести жеребкування",
+    "processing": "Обробка...",
+    "winner": "Переможець: {{selectedWinner}}",
+    "explorer_message": "На відображення NFT йде приблизно 5 хвилин через збереження файлу на Arweave.",
+    "view_on_explorer": "Переглянути в Explorer"
+  },
+  "my_page": {
+    "connect_wallet": "Будь ласка, підключіть свій гаманець",
+    "register_profile": "Зареєструйте свій профіль",
+    "transfer_history_mypage": "Історія переказів",
+    "received_history_mypage": "Історія отриманих",
+    "issue_nft": "Випустити NFT для підтвердження пожертвування",
+    "processing": "Обробка...",
+    "nft_reflection_message": "На відображення NFT йде приблизно 5 хвилин через збереження файлу на Arweave.",
+    "view_on_explorer": "Переглянути в Explorer",
+    "profile_view": {
+      "imageAlt": "Зображення профілю",
+      "editButton": "Редагувати профіль"
+    },
+    "profile_edit": {
+      "title": "Редагувати свій профіль",
+      "nameLabel": "Ім'я",
+      "descriptionLabel": "Опис",
+      "imageLabel": "Зображення профілю",
+      "imageAlt": "Зображення профілю",
+      "uploading": "Завантаження...",
+      "saveButton": "Зберегти профіль"
+    },
+    "receivedHistory": {
+      "title": "Історія отриманих",
+      "noHistory": "Історію отриманих не знайдено.",
+      "sender": "Відправник",
+      "message": "Повідомлення",
+      "noMessage": "Немає"
+    },
+    "transfer_history": {
+      "noHistory": "Історію переказів не знайдено.",
+      "recipient": "Одержувач",
+      "amount": "Сума",
+      "message": "Повідомлення",
+      "noMessage": "Немає",
+      "loading": "Завантаження...",
+      "showMore": "Показати більше",
+      "showLess": "Показати менше",
+      "totalAmount": "Загальна сума",
+      "monthlyTotal": "Щомісячна загальна сума"
+    }
+  }
+}

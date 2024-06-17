@@ -1,0 +1,169 @@
+{
+  "layout": {
+    "ranking": "TipMates Ranking",
+    "apply": "Apply for Certification Badge",
+    "mypage": "My Page",
+    "footer_logo_alt": "SolanaTips"
+  },
+  "main": {
+    "title1": "Direct and Transparent",
+    "title2-1": "Tipping",
+    "title2-2": "with",
+    "title2-3": "SolanaTips",
+    "member_number": "Number of Members",
+    "create_project": "Create Project",
+    "search_placeholder": "Search 1,050 projects...name, ID,",
+    "sort_newest": "Newest",
+    "sort_memberCount": "Member Count",
+    "team_image_alt": "Team",
+    "mobile_warning": {
+      "title": "Mobile Warning",
+      "message": "This website is not optimized for mobile devices.",
+      "description": "Please use a desktop or laptop to view this page.",
+      "close": "Close"
+    }
+  },
+  "lookup_table": {
+    "member_form": {
+      "add_member": "Add Members",
+      "namePlaceholder": "Name",
+      "removeButton": "Remove",
+      "addAnotherMember": "Add Another Member",
+      "addMembersButton": "Add Members"
+    },
+    "member_list": {
+      "title": "Members",
+      "countSuffix": "members",
+      "noMembers": "No members found."
+    },
+    "messages_section": {
+      "title": "Comments",
+      "countSuffix": "comments",
+      "noMessages": "No messages found."
+    },
+    "support_section": {
+      "sendTip": "Send Tip",
+      "token": "PYUSD",
+      "commentPlaceholder": "You can add a comment. It's optional to send a tip.",
+      "monthlyTotal": "Monthly Total",
+      "send": "Send",
+      "warningMessage": "The total donation for this month exceeds 100 PYUSD. Please donate within your means.",
+      "cancel": "Cancel",
+      "transactionId": "transaction ID:"
+    },
+    "post_detail_client": {
+      "display_qr_code": "Display QR Code",
+      "translate": "Translate Page",
+      "white_list": "Registered in Whitelist. Whitelist Number:",
+      "homepage_qr": "This page QR Code",
+      "language_label": "Language",
+      "info": "Notice",
+      "info_desc1": "Currently, usage is restricted due to pre-release.",
+      "info_desc2": "Please check YouTube to see how it behaves."
+    }
+  },
+  "admin": {
+    "applications_list": "Applications List",
+    "no_applications_found": "No applications found.",
+    "project_name": "Project Name",
+    "hp_address": "Homepage Address",
+    "project_description": "Project Description",
+    "contact_name": "Contact Name",
+    "contact_email": "Contact Email",
+    "wallet_address": "Wallet Address",
+    "submitted_at": "Submitted At",
+    "status": "Status",
+    "status_options": {
+      "pending": "Pending",
+      "approved": "Approved",
+      "rejected": "Rejected"
+    },
+    "confirm": "Confirm"
+  },
+  "apply": {
+    "application_form": "Project Application Form",
+    "project_name": "Project Name",
+    "hp_address": "Homepage Address",
+    "project_description": "Project Description",
+    "contact_name": "Contact Name",
+    "contact_email": "Contact Email",
+    "note": "Note: It takes 3 business days to respond.",
+    "submit": "Submit",
+    "status": {
+      "no_wallet": "Wallet is not connected. Cannot submit.",
+      "submitted": "Application submitted successfully. It takes 3 business days to respond."
+    }
+  },
+  "create": {
+    "lookup_table_tool": "Lookup Table Creation Tool",
+    "file_upload": "Upload File",
+    "team_name": "Enter Team Name",
+    "team_description": "Enter Team Description",
+    "team_image": "Upload Team Image",
+    "team_address": "Address (optional)",
+    "team_homepage": "Homepage (optional)",
+    "csv_content": "CSV Content",
+    "csv_error": "Error parsing CSV",
+    "no_wallet": "Wallet is not connected",
+    "program_running": "Program Running...",
+    "program_success": "Program executed successfully",
+    "program_error": "Error executing program",
+    "lookup_table_address": "Lookup Table Address",
+    "check_transaction": "Check Transaction",
+    "submit_button": "Create Lookup Table",
+    "whitelist_message": "You are registered in the whitelist."
+  },
+  "ranking": {
+    "monthly_donation_ranking": "{{currentMonth}} Monthly Donation Ranking",
+    "rank": "Rank",
+    "sender_account": "Sender Account",
+    "total_amount": "Total Amount",
+    "draw_lottery": "Draw Lottery",
+    "processing": "Processing...",
+    "winner": "Winner: {{selectedWinner}}",
+    "explorer_message": "It takes about 5 minutes to reflect the NFT due to file saving on Arweave.",
+    "view_on_explorer": "View on Explorer"
+  },
+  "my_page": {
+    "connect_wallet": "Please connect your wallet",
+    "register_profile": "Register Your Profile",
+    "transfer_history_mypage": "Transfer History",
+    "received_history_mypage": "Received History",
+    "issue_nft": "Issue NFT for Donation Proof",
+    "processing": "Processing...",
+    "nft_reflection_message": "It takes about 5 minutes to reflect the NFT due to file saving on Arweave.",
+    "view_on_explorer": "View on Explorer",
+    "profile_view": {
+      "imageAlt": "Profile Image",
+      "editButton": "Edit Profile"
+    },
+    "profile_edit": {
+      "title": "Edit Your Profile",
+      "nameLabel": "Name",
+      "descriptionLabel": "Description",
+      "imageLabel": "Profile Image",
+      "imageAlt": "Profile Image",
+      "uploading": "Uploading...",
+      "saveButton": "Save Profile"
+    },
+    "receivedHistory": {
+      "title": "Received History",
+      "noHistory": "No received history found.",
+      "sender": "Sender",
+      "message": "Message",
+      "noMessage": "None"
+    },
+    "transfer_history": {
+      "noHistory": "No transfer history found.",
+      "recipient": "Recipient",
+      "amount": "Amount",
+      "message": "Message",
+      "noMessage": "None",
+      "loading": "Loading...",
+      "showMore": "Show More",
+      "showLess": "Show Less",
+      "totalAmount": "Total Amount",
+      "monthlyTotal": "Monthly Total Amount"
+    }
+  }
+}
