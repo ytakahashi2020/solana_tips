@@ -164,7 +164,7 @@ const RankingPage: React.FC<PageParams> = ({ params: { lng } }) => {
           </button>
         ) : (
           <button
-            className="mt-6 mt-6 w-full px-4 py-3 bg-gray-500 text-white rounded-lg cursor-not-allowed"
+            className="mt-6 mt-6 w-full px-4 py-3 bg-kasumigray text-white rounded-full cursor-not-allowed"
             disabled
           >
             {t("ranking.draw_lottery")}
