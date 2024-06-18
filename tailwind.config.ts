@@ -20,6 +20,7 @@ const config: Config = {
         namiblue: '#006DDC',
         baseblue: '#002D84',
         kumogray: '#F3F3F6',
+        kasumigray: '#8E9AA5',
 
       },
 

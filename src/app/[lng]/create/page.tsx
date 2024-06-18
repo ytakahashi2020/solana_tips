@@ -250,7 +250,7 @@ const LookupTableComponent: React.FC<PageParams> = ({ params: { lng } }) => {
         <div className="mt-4">
           <button
             onClick={handleLookup}
-            className={`w-full px-4 py-2 text-white rounded-lg bg-blue-500 hover:bg-blue-600`}
+            className={`w-full px-4 py-3 text-white rounded-full bg-namiblue hover:bg-namiblue`}
           >
             {t("create.submit_button")}
           </button>

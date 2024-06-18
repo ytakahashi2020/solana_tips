@@ -282,13 +282,13 @@ const CsvToFirestoreComponent: React.FC = () => {
         <div className="mt-4">
           <button
             onClick={handleUploadToFirestore}
-            className="w-full px-4 py-2 text-white rounded-lg bg-blue-500 hover:bg-blue-600 mb-4"
+            className="w-full px-4 py-3 text-white rounded-lg bg-namiblue hover:bg-blue-600 mb-4"
           >
             Upload to Firestore
           </button>
           <button
             onClick={handleDeleteMembers}
-            className="w-full px-4 py-2 text-white rounded-lg bg-red-500 hover:bg-red-600 mb-4"
+            className="w-full px-4 py-3 text-white rounded-lg bg-red-500 hover:bg-red-600 mb-4"
           >
             Delete Members
           </button>
