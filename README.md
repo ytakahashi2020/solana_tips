@@ -1,3 +1,9 @@
+![Description of the image](public/images/img.png)
+
+URL: https://solana-tips.vercel.app/en
+
+YouTUbe: https://www.youtube.com/watch?v=1EBQm6Cu3VM
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
