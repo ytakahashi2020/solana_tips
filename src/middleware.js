@@ -15,15 +15,13 @@ const cookieName = "i18next";
 
 export function middleware(req) {
   let lng;
-  //cookieに保存されている言語を取得
   if (req.cookies.has(cookieName))
     lng = acceptLanguage.get(req.cookies.get(cookieName).value);
-  // ブラウザの設定言語
+
   if (!lng) lng = acceptLanguage.get(req.headers.get("Accept-Language"));
-  //settings.js で設定した言語
+
   if (!lng) lng = fallbackLng;
 
-  // http://localhost:3000 または、予想外の言語でアクセスされた場合にリダイレクト
   if (
     !languages.some((loc) => req.nextUrl.pathname.startsWith(`/${loc}`)) &&
     !req.nextUrl.pathname.startsWith("/_next")
@@ -33,7 +31,6 @@ export function middleware(req) {
     );
   }
 
-  // cookie に言語をセット
   if (req.headers.has("referer")) {
     const refererUrl = new URL(req.headers.get("referer"));
     const lngInReferer = languages.find((l) =>
