@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { getAuth, GithubAuthProvider, signInWithPopup } from "firebase/auth";
 import axios from "axios";
 import { doc, setDoc } from "firebase/firestore";
-import { db } from "./firebase"; // Firebase設定ファイルをインポート
+import { db } from "./firebase";
 
 const GithubLogin = ({ setUser }) => {
   const [username, setUsername] = useState("");
@@ -17,7 +17,6 @@ const GithubLogin = ({ setUser }) => {
       const user = result.user;
       console.log("GitHub User:", user);
 
-      // GitHub APIを使用してユーザー名を取得
       const response = await axios.get("https://api.github.com/user", {
         headers: {
           Authorization: `token ${token}`,
@@ -27,12 +26,10 @@ const GithubLogin = ({ setUser }) => {
       const githubUsername = response.data.login;
       console.log("GitHub Username:", githubUsername);
 
-      // ユーザー情報にGitHubユーザー名を追加
       const userWithGithub = { ...user, githubUsername };
       setUser(userWithGithub);
       setUsername(githubUsername);
 
-      // Firestoreにユーザー情報を保存
       await setDoc(doc(db, "users", user.uid), {
         uid: user.uid,
         email: user.email,
